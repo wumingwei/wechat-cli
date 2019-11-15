@@ -1,29 +1,34 @@
 {
-  "name": "wechat-cli",
-  "version": "0.1.0",
-  "description": "微信小程序脚手架,用于快速开始一个微信小程序的开发.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wumingwei/wechat-cli.git"
-  },
-  "keywords": [
-    "微信",
-    "小程序",
-    "模块化",
-    "自动化",
-    "脚手架",
-    "scss",
-    "登录鉴权",
-    "云开发."
-  ],
-  "author": "wu_mingwei <wu_mingwei@yeah.net> (http://github.com/wumingwei)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wumingwei/wechat-cli/issues"
-  },
-  "homepage": "https://github.com/wumingwei/wechat-cli#readme"
+    "name": "wechat-cli",
+    "version": "0.1.0",
+    "description": "微信小程序脚手架,用于快速开始一个微信小程序的开发.",
+    "main": "app.js",
+    "scripts": {
+        "add": "node build/add.js",
+        "list": "node build/list.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wumingwei/wechat-cli.git"
+    },
+    "keywords": [
+        "微信",
+        "小程序",
+        "模块化",
+        "自动化",
+        "脚手架",
+        "scss",
+        "登录鉴权",
+        "云开发."
+    ],
+    "author": "wu_mingwei <wu_mingwei@yeah.net> (http://github.com/wumingwei)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wumingwei/wechat-cli/issues"
+    },
+    "homepage": "https://github.com/wumingwei/wechat-cli#readme",
+    "devDependencies": {
+        "chalk": "^3.0.0"
+    }
 }
