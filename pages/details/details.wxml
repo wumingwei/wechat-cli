@@ -1,0 +1,4 @@
+<!-- details.wxml -->
+<view class="container">
+    <view class="">details页面</view>
+</view>

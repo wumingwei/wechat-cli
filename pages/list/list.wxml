@@ -1,0 +1,4 @@
+<!-- list.wxml -->
+<view class="container">
+    <view class="">list页面</view>
+</view>
