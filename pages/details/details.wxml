@@ -1,4 +1,5 @@
 <!-- details.wxml -->
-<view class="container">
-    <view class="">details页面</view>
+<view class="page-details">
+    <view class="page-details__title">当前: details页面</view>
+    <button type="primary">去details页</button>
 </view>

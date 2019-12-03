@@ -1,5 +1,5 @@
 <!-- index.wxml -->
 <view class="page-index">
-    <view class="page-index__title">index页面</view>
-    <view class="page-index__button">点击跳转至details页面</view>
+    <view class="page-index__title">当前: index页面</view>
+    <button type="primary">去details页</button>
 </view>

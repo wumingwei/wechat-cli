@@ -1,5 +1,5 @@
 <!-- home.wxml -->
-<view class="container">
-    <view class="page-home__title">home页面</view>
-    <view class="page-home__button">点击跳转至details页面</view>
+<view class="page-home">
+    <view class="page-home__title">当前: home页面</view>
+    <button type="primary">去details页</button>
 </view>
